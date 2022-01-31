@@ -1,0 +1,16 @@
+{
+    "blogs" : [
+        {
+            "name" : "Art",
+            "description" : "Some of my art.",
+            "thumbnail" : "",
+            "path" : "/tabs/portfolio/art/art.html"
+        },
+        {
+            "name" : "Unnamed Astronaut Game",
+            "description" : "My game about an astronaut who wanders around lab ruins.",
+            "thumbnail" : "",
+            "path" : "/logs/devlog1/log.html"
+        }
+    ]
+}

@@ -247,8 +247,13 @@ textarea {
 	animation-duration: 0.1s;
 }
 
-.devlog-button > div, .devlog-button > img {
+.devlog-button > div {
     display: inline-block;
+}
+
+.devlog-button > img {
+    display: inline-block;
+    width: 128px;
 }
 
 

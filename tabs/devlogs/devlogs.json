@@ -1,15 +1,9 @@
 {
-   "devlogs" : [
+   "blogs" : [
         {
-            "name" : "Devlog #1",
+            "name" : "Devlog #0",
             "description" : "An introduction to my game.",
             "thumbnail" : "/logs/devlog1/HankSketch.png",
-            "path" : "/logs/devlog1/log.html"
-        },
-        {
-            "name" : "Devlog #2",
-            "description" : "An introduction to my game.",
-            "thumbnail" : "",
             "path" : "/logs/devlog1/log.html"
         }
    ] 
