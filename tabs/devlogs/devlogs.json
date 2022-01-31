@@ -1,9 +1,14 @@
 {
    "devlogs" : [
-       {
-           "name" : "Devlog #1",
-           "description" : "An introduction to my game.",
-           "path" : "/logs/devlog1/log.html"
-       }
+        {
+            "name" : "Devlog #1",
+            "description" : "An introduction to my game.",
+            "path" : "/logs/devlog1/log.html"
+        },
+        {
+            "name" : "Devlog #2",
+            "description" : "An introduction to my game.",
+            "path" : "/logs/devlog1/log.html"
+        }
    ] 
 }
