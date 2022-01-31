@@ -42,6 +42,11 @@ img {
 }
 
 
+iframe {
+    border-radius: var(--rounding);
+}
+
+
 li {
     display: inline-block;
 }
@@ -82,6 +87,8 @@ a:hover {
 /* Navbar */
 
 #navbar {
+    user-select: none;
+
     position: fixed;
     padding: 5px;
 
