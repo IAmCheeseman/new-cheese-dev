@@ -12,7 +12,10 @@ function loadDevlogs()
         .then(data => {
             // Creating the devlogs
             data.devlogs.forEach(element => {
-                let devButtonStr = devlogButton.replace(">name", `>${element.name}`).replace(">desc", `>${element.description}`)
+                let devButtonStr = devlogButton.replace(">name", `>${element.name}`)
+                                                .replace(">desc", `>${element.description}`)
+                                                .replace("path", element.path)
+                                                .replace("thumbnail-path", element.thumbnail)
                 document.getElementById('content').insertAdjacentHTML('beforeend', devButtonStr)
             })
         })

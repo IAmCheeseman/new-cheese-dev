@@ -35,6 +35,10 @@ hr {
     border: 1px solid var(--secondary-color);
 }
 
+img {
+    border-radius: var(--rounding);
+}
+
 
 footer > p {
     position: fixed;
@@ -182,14 +186,43 @@ textarea {
 
 /* Devlog Buttons */
 
+@keyframes devlog-hover {
+    0% {
+        background-color: var(--secondary-color);
+        border: 0px solid var(--secondary-color);
+        border-bottom: 0px solid var(--secondary-color);
+    }
+    100% {
+        background-color: var(--bg-color);
+        border: 1px solid var(--secondary-color);
+        border-bottom: 5px solid var(--secondary-color);
+    }
+}
+
 .devlog-button {
     background-color: var(--secondary-color);
 
     border-radius: var(--rounding);
     
-    padding: 12px 12%;
+    padding: 12px;
+    margin: 38px 0px;
+}
+
+
+.devlog-button:hover {
+    cursor: pointer;
+
+    background-color: var(--bg-color);
+    border: 1px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
+
     margin: 32px 0px;
 }
+
+.devlog-button > div {
+    display: inline-block;
+}
+
 
 .devlog-name {
     color: var(--text-color-important);
