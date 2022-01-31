@@ -1,4 +1,4 @@
 
 $(function() {
-    $("#navbar-parent").load("../navbar.html");
+    $("#navbar-parent").load("/navbar.html");
 });
