@@ -1,8 +1,8 @@
 {
     "blogs" : [
         {
-            "name" : "Art",
-            "description" : "Some of my art.",
+            "name" : "Art Portfolio",
+            "description" : "Some of my art. This will always be on top.",
             "thumbnail" : "",
             "path" : "/tabs/portfolio/art/art.html"
         },
@@ -10,7 +10,7 @@
             "name" : "Unnamed Astronaut Game",
             "description" : "My game about an astronaut who wanders around lab ruins.",
             "thumbnail" : "",
-            "path" : "/logs/devlog1/log.html"
+            "path" : "/tabs/portfolio/projects/astronautGame/astronautGame.html"
         }
     ]
 }
