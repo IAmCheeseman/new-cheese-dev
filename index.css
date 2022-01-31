@@ -49,6 +49,7 @@ footer > p {
 
 a {
     color: var(--highlight-color);
+    text-decoration: none;
 }
 
 a:hover {
@@ -73,7 +74,6 @@ a:hover {
     top: 0px;
     left: 0px;
     right: 0px;
-
 }
 
 .main-title {
@@ -97,8 +97,8 @@ a:hover {
 		margin-bottom: 5px;
 	}
 	100% {
-		/* border-bottom: 5px solid var(--highlight-color);
-		margin-bottom: 0px; */
+		border-bottom: 5px solid var(--highlight-color);
+		margin-bottom: 0px;
 	}
 }
 
@@ -192,17 +192,15 @@ textarea {
 
 /* Devlog Buttons */
 
-@keyframes devlog-hover {
-    0% {
-        background-color: var(--secondary-color);
-        border: 0px solid var(--secondary-color);
-        border-bottom: 0px solid var(--secondary-color);
-    }
-    100% {
-        background-color: var(--bg-color);
-        border: 1px solid var(--secondary-color);
-        border-bottom: 5px solid var(--secondary-color);
-    }
+@keyframes devlog-button-select {
+	0% {
+		border-bottom: 0px solid var(--highlight-color);
+		margin-bottom: 15px;
+	}
+	100% {
+		border-bottom: 10px solid var(--highlight-color);
+		margin-bottom: 5px;
+	}
 }
 
 .devlog-button {
@@ -211,22 +209,25 @@ textarea {
     background-color: var(--bg-color);
 
     border-radius: var(--rounding);
+    border-bottom: 0px solid transparent;
     
     padding: 12px;
-    margin: 38px 0px;
+    margin-bottom: 15px
 }
 
 
 .devlog-button:hover {
-    border-bottom: 10px solid var(--highlight-color);
-	margin-bottom: 28px;
 	cursor: pointer;
 
 	color: var(--text-color-important);
     background-color: var(--secondary-color);
-    border-radius: var(--rounding-small);
 
-	animation-name: button-select;
+    border-radius: var(--rounding-small);
+    border-bottom: 10px solid var(--highlight-color);
+
+    margin-bottom: 5px;
+
+	animation-name: devlog-button-select;
 	animation-duration: 0.1s;
 }
 
