@@ -1,6 +1,36 @@
 {
     "blogs" : [
         {
+            "name" : "First Pixels",
+            "description" : "First few pixel arts I've done.",
+            "thumbnail" : "/tabs/portfolio/art/peices/firstPixels/boogerMan.png",
+            "path" : "/tabs/portfolio/art/peices/firstPixels/firstPixels.html"
+        },
+        {
+            "name" : "Void Creature",
+            "description" : "Done for an art jam.",
+            "thumbnail" : "/tabs/portfolio/art/peices/voidCreature/voidCreature.png",
+            "path" : "/tabs/portfolio/art/peices/voidCreature/voidCreature.html"
+        },
+        {
+            "name" : "Robots",
+            "description" : "First of my current style.",
+            "thumbnail" : "/tabs/portfolio/art/peices/robots/robots.png",
+            "path" : "/tabs/portfolio/art/peices/robots/robots.html"
+        },
+        {
+            "name" : "Lanky Astronaut",
+            "description" : "One of my favorites.",
+            "thumbnail" : "/tabs/portfolio/art/peices/lankyAstronaut/astronaut.png",
+            "path" : "/tabs/portfolio/art/peices/lankyAstronaut/astronaut.html"
+        },
+        {
+            "name" : "Ultrakill Fanart",
+            "description" : "Ultrakill, go play it.",
+            "thumbnail" : "/tabs/portfolio/art/peices/ultrakillFanart/v2UK.png",
+            "path" : "/tabs/portfolio/art/peices/ultrakillFanart/ultrakillFanart.html"
+        },
+        {
             "name" : "Headstone",
             "description" : "Focused on the headstone, background sucks on purpose.",
             "thumbnail" : "/tabs/portfolio/art/peices/headstone/headstone.png",
@@ -11,6 +41,12 @@
             "description" : "A boss in my game.",
             "thumbnail" : "/tabs/portfolio/art/peices/HANK/HANK.png",
             "path" : "/tabs/portfolio/art/peices/HANK/HANK.html"
+        },
+        {
+            "name" : "3D Bee",
+            "description" : "My only attempt at 3D art.",
+            "thumbnail" : "/tabs/portfolio/art/peices/bee/bee.jpg",
+            "path" : "/tabs/portfolio/art/peices/bee/bee.html"
         }
     ]
 }

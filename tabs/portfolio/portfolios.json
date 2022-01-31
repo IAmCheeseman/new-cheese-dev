@@ -9,7 +9,7 @@
         {
             "name" : "Unnamed Astronaut Game",
             "description" : "My game about an astronaut who wanders around lab ruins.",
-            "thumbnail" : "",
+            "thumbnail" : "/tabs/portfolio/projects/astronautGame/icon.png",
             "path" : "/tabs/portfolio/projects/astronautGame/astronautGame.html"
         }
     ]

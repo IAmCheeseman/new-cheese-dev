@@ -11,9 +11,9 @@
     --rounding: 12px;
     --rounding-small: 5px;
 
-    --font-size-big: 32px;
-    --font-size-medium: 24px;
-    --font-size-small: 12px;
+    --font-size-big: 1.75vw;
+    --font-size-medium: 1.12vw;
+    --font-size-small: 1vw;
 
     font-family: monospace;
     font-size: var(--font-size-medium);
@@ -177,6 +177,7 @@ textarea {
 }
 
 #content > p {
+    font-family: monospace;
     color: var(--text-color-semi-important);
 }
 
