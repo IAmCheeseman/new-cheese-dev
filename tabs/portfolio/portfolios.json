@@ -3,7 +3,7 @@
         {
             "name" : "Art Portfolio",
             "description" : "Some of my art. This will always be on top.",
-            "thumbnail" : "",
+            "thumbnail" : "/tabs/portfolio/art/ArtPortfolioIcon.png",
             "path" : "/tabs/portfolio/art/art.html"
         },
         {
