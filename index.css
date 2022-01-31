@@ -36,7 +36,18 @@ hr {
 }
 
 img {
+    display: block;
+
     border-radius: var(--rounding);
+}
+
+
+li {
+    display: inline-block;
+}
+
+ul.list > li {
+    display: block;
 }
 
 
@@ -59,7 +70,12 @@ a:hover {
 
 
 .important {
-    color: var(--text-color-important)
+    color: var(--text-color-important);
+}
+
+.image-desc {
+    color: var(--text-color-unimportant);
+    size: var(--font-size-small);
 }
 
 
@@ -164,7 +180,7 @@ textarea {
     color: var(--text-color-semi-important);
 }
 
-#content > h2 {
+#content > h1, h2, h3 {
     display: inline-block;
 
     color: var(--text-color-important);
@@ -231,7 +247,7 @@ textarea {
 	animation-duration: 0.1s;
 }
 
-.devlog-button > div {
+.devlog-button > div, .devlog-button > img {
     display: inline-block;
 }
 
