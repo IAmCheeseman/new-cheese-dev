@@ -12,7 +12,7 @@ function createEmbed(desc, img)
     html.replace('title-here', document.title)
     html.replace('desc-here', desc)
     html.replace('img-here', img)
-    let head = document.head
+    let head = document.getElementById('navbar-parent')
     head.insertAdjacentHTML('beforeend', html)
 }
 
