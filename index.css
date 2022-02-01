@@ -99,6 +99,37 @@ a:hover {
     right: 0px;
 }
 
+
+.socials {
+    user-select: none;
+
+    text-align: right;
+
+    position: fixed;
+    margin: 38px 2.5%;
+
+    top: 0px;
+    left: 75%;
+    right: 0px;
+}
+
+.socials > a {
+    color: var(--text-color-semi-important);
+}
+
+.socials > a:hover {
+    color: var(--text-color-important);
+    border-bottom: 5px solid var(--highlight-color);
+}
+
+
+#navbar {
+    color: var(--text-color-important)
+
+    var(--font-size-big)
+}
+
+
 .main-title {
     font-family: Arial, Helvetica, sans-serif;
 }
