@@ -29,7 +29,7 @@
 
 body {
     background-color: var(--bg-color);
-    /* overscroll-behavior: none; */
+    overscroll-behavior: none;
 }
 
 hr {
@@ -38,7 +38,7 @@ hr {
 
 img {
     display: block;
-    margin: 0px auto;
+    margin: 20px auto;
 
     max-width: 100%;
 
@@ -47,15 +47,23 @@ img {
 
 
 iframe {
+    display: block;
+    margin: 20px auto;
+
+    max-width: 100%;
+
     border-radius: var(--rounding);
 }
 
 
-li {
-    display: inline-block;
+ul {
+    text-align: center;
+    display: block;
 }
 
+
 ul.list > li {
+    text-align: left;
     display: block;
 }
 
@@ -298,7 +306,7 @@ textarea {
 
 .devlog-button > img {
     display: inline-block;
-    width: 25%;
+    width: 20%;
 }
 
 
@@ -334,7 +342,13 @@ textarea {
     .devlog-button {
         font-size: var(--font-size-medium);
     }
-    .devlog-button > img {
-        width: 20%;
+
+    #footer-parent > p {
+        font-size: var(--font-size-medium);
+
+        background-color: var(--secondary-color);
+
+        left: 0px;
+        padding-left: 5px;
     }
 }

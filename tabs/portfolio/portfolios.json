@@ -1,28 +1,32 @@
 {
     "blogs" : [
         {
+            "name" : "Unnamed Astronaut Game",
+            "description" : "My game about an astronaut who wanders around lab ruins.",
+            "thumbnail" : "/projects/astronautGame/icon.png",
+            "path" : "/projects/astronautGame/",
+            "pinned" : true
+        },
+        {
             "name" : "Art Portfolio",
-            "description" : "Some of my art. This will always be on top.",
-            "thumbnail" : "/tabs/portfolio/art/ArtPortfolioIcon.png",
-            "path" : "/tabs/portfolio/art/art.html"
+            "description" : "Another portfolio page, showing some of my art.",
+            "thumbnail" : "/art/ArtPortfolioIcon.png",
+            "path" : "/art/",
+            "pinned" : true
         },
         {
             "name" : "Island Generator",
             "description" : "Generates random islands in the first alpha of Godot 4.0.",
-            "thumbnail" : "/tabs/portfolio/projects/islandGeneration/thumbnail.png",
-            "path" : "/tabs/portfolio/projects/islandGeneration/islandGeneration.html"
-        },
-        {
-            "name" : "Unnamed Astronaut Game",
-            "description" : "My game about an astronaut who wanders around lab ruins.",
-            "thumbnail" : "/tabs/portfolio/projects/astronautGame/icon.png",
-            "path" : "/tabs/portfolio/projects/astronautGame/astronautGame.html"
+            "thumbnail" : "/projects/islandGeneration/thumbnail.png",
+            "path" : "/projects/islandGeneration/",
+            "pinned" : false
         },
         {
             "name" : "Art Idea Generator",
             "description" : "Generates random art ideas.",
-            "thumbnail" : "/tabs/portfolio/projects/artIdeaGenerator/thumbnail.png",
-            "path" : "/tabs/portfolio/projects/artIdeaGenerator/artIdeaGenerator.html"
+            "thumbnail" : "/projects/artIdeaGenerator/thumbnail.png",
+            "path" : "/projects/artIdeaGenerator/",
+            "pinned" : false
         }
     ]
 }

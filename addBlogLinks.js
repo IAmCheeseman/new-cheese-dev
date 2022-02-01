@@ -18,7 +18,11 @@ function loadBlogs(path)
                 .replace("path", element.path)
                 .replace("thumbnail-path", element.thumbnail)
 
-                document.getElementById('content').insertAdjacentHTML('beforeend', devButtonStr)
+                if (element.pinned) {
+                    document.getElementById('pinned').insertAdjacentHTML('beforeend', devButtonStr)
+                } else {
+                    document.getElementById('content').insertAdjacentHTML('beforeend', devButtonStr)
+                }
             })
         })
     })
