@@ -293,11 +293,12 @@ textarea {
 
 .devlog-button > div {
     display: inline-block;
+    max-width: 75%;
 }
 
 .devlog-button > img {
     display: inline-block;
-    width: 128px;
+    width: 25%;
 }
 
 
@@ -309,12 +310,30 @@ textarea {
 }
 
 /* Screen resizing */
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 1080px) {
     .socials {
         display: none;
     }
-
     #navbar {
-        justify-content: center;
+        text-align: center;
+    }
+    .main-title {
+        display: block;
+        
+    }
+    #navbar > p {
+        display: none;
+    }
+    #navbar > hr {
+        border: 3px solid var(--secondary-color);
+    }
+    .navbar-button {
+        font-size: 48px;
+    }
+    .devlog-button {
+        font-size: var(--font-size-medium);
+    }
+    .devlog-button > img {
+        width: 20%;
     }
 }
