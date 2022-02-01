@@ -330,6 +330,7 @@ textarea {
     .navbar-button {
         font-size: 48px;
     }
+    
     .devlog-button {
         font-size: var(--font-size-medium);
     }
