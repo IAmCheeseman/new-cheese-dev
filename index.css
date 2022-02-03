@@ -322,12 +322,14 @@ textarea {
     .socials {
         display: none;
     }
+    #content > p {
+        font-size: var(--font-size-big);
+    }
     #navbar {
         text-align: center;
     }
     .main-title {
         display: block;
-        
     }
     #navbar > p {
         display: none;
@@ -336,18 +338,13 @@ textarea {
         border: 3px solid var(--secondary-color);
     }
     .navbar-button {
-        font-size: 48px;
+        font-size: 50px;
     }
     
     .devlog-button {
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-big);
     }
     #footer-parent > p {
-        font-size: var(--font-size-medium);
-
-        background-color: var(--secondary-color);
-
-        left: 0px;
-        padding-left: 5px;
+        display: none;
     }
 }
