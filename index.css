@@ -137,9 +137,14 @@ a:hover {
 
 
 #navbar {
-    color: var(--text-color-important)
+    color: var(--text-color-important);
 
-    var(--font-size-big)
+    font-size: var(--font-size-big);
+}
+
+#navbar > hr {
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 
@@ -317,7 +322,7 @@ textarea {
     font-size: var(--font-size-big);
 }
 
-/* Screen resizing */
+/* Mobile Support */
 @media only screen and (max-width: 1080px) {
     .socials {
         display: none;
@@ -340,7 +345,6 @@ textarea {
     .navbar-button {
         font-size: 50px;
     }
-    
     .devlog-button {
         font-size: var(--font-size-big);
     }
