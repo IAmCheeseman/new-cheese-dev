@@ -23,5 +23,5 @@ function addSkipper(points)
 
 function gotoElement(element)
 {
-    location.href = location.href.replace(/#[a-zA-Z0-9]*/, '') + `#${element}`
+    location.href = location.href.replace(/#[a-zA-Z0-9-]*/, '') + `#${element}`
 }
