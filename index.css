@@ -375,4 +375,7 @@ textarea {
     #skipper {
         display: none;
     }
+    #content {
+        margin: 120px 12%;
+    }
 }
