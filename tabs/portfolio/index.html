@@ -15,6 +15,9 @@
 
             </div>
             <hr>
+            <div id="projects">
+
+            </div>
         </div>
     </body>
     <footer id="footer-parent"></footer>
@@ -22,6 +25,14 @@
     <script src="/index.js" type="text/javascript" defer></script>
     <script src="/addBlogLinks.js" type="text/javascript"></script>
     <script type="text/javascript">
-        loadBlogs("./portfolios.json")
+        loadBlogs('./portfolios.json', 'projects')
+    </script>
+    <script src="/addSkipper.js" type="text/javascript"></script>
+    <script>
+        addSkipper([
+            ['Back to Top', 'content'],
+            ['Unpinned Projects', 'projects']
+        ])
+        console.log("test")
     </script>
 </html>

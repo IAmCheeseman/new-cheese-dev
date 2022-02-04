@@ -152,6 +152,23 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Skipper */
+
+#skipper {
+    position: fixed;
+    top: 150px;
+    right: 1%;
+
+    padding: 0px 25px 15px 25px;
+
+    min-width: 9%;
+    max-width: 20%;
+    width: auto;
+
+    border-radius: var(--rounding-small);
+
+    background-color: var(--secondary-color);
+}
 
 /* Title button */
 
@@ -230,6 +247,7 @@ textarea {
 
 #content {
     margin: 120px 12%;
+    margin-right: 25%;
 }
 
 #content > p {
@@ -349,6 +367,12 @@ textarea {
         font-size: var(--font-size-big);
     }
     #footer-parent > p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    #skipper {
         display: none;
     }
 }
