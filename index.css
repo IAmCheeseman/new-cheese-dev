@@ -330,6 +330,8 @@ textarea {
 .devlog-button > img {
     display: inline-block;
     width: 20%;
+
+    margin-bottom: 0px;
 }
 
 
