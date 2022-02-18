@@ -156,6 +156,23 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Skipper */
+
+#skipper {
+    position: fixed;
+    top: 150px;
+    right: 1%;
+
+    padding: 0px 25px 15px 25px;
+
+    min-width: 9%;
+    max-width: 20%;
+    width: auto;
+
+    border-radius: var(--rounding-small);
+
+    background-color: var(--secondary-color);
+}
 
 /* Title button */
 
@@ -234,6 +251,7 @@ textarea {
 
 #content {
     margin: 120px 12%;
+    margin-right: 25%;
 }
 
 #content > p {
@@ -318,6 +336,8 @@ textarea {
     margin-bottom: 0px;
 
     width: 20%;
+
+    margin-bottom: 0px;
 }
 
 
@@ -356,5 +376,14 @@ textarea {
     }
     #footer-parent > p {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #skipper {
+        display: none;
+    }
+    #content {
+        margin: 120px 12%;
     }
 }

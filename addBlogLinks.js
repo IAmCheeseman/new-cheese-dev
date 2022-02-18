@@ -1,6 +1,6 @@
 
 
-function loadBlogs(path)
+function loadBlogs(path, dst='content')
 {
     // Fetching the devlog button
     fetch('/blogButton.html')
@@ -21,7 +21,7 @@ function loadBlogs(path)
                 if (element.pinned) {
                     document.getElementById('pinned').insertAdjacentHTML('beforeend', devButtonStr)
                 } else {
-                    document.getElementById('content').insertAdjacentHTML('beforeend', devButtonStr)
+                    document.getElementById(dst).insertAdjacentHTML('beforeend', devButtonStr)
                 }
             })
         })

@@ -3,7 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/index.css"> 
-        <script src="https://kit.fontawesome.com/c0fe0ca982.js" crossorigin="anonymous"></script>
+        <!-- <script src="https://kit.fontawesome.com/c0fe0ca982.js" crossorigin="anonymous"></script> -->
     </head>
     <header id="navbar-parent"></header>
     <body>
@@ -37,38 +37,52 @@
             </p>
             <hr>
             <!-- Social Media -->
-            <h3>Social Medias / Contact</h3>
-            <ul>
-                <a href="https://discord.gg/UrbYQU7uKv" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i> Discord</a>
-                <a href="https://twitter.com/_IAmCheeseman" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
-                <a href="https://www.youtube.com/channel/UCpT4x1vGhCd4H5QBW8sieeA" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Youtube</a>
-                <a href="https://github.com/IAmCheeseman" target="_blank"><i class="fab fa-github"  aria-hidden="true"></i> Github</a>
-            </ul>
+            <div id='socials-about'>
+                <h3>Social Medias / Contact</h3>
+                <ul>
+                    <a href="https://discord.gg/UrbYQU7uKv" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i> Discord</a>
+                    <a href="https://twitter.com/_IAmCheeseman" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+                    <a href="https://www.youtube.com/channel/UCpT4x1vGhCd4H5QBW8sieeA" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Youtube</a>
+                    <a href="https://github.com/IAmCheeseman" target="_blank"><i class="fab fa-github"  aria-hidden="true"></i> Github</a>
+                </ul>
+            </div>
             <hr>
 
-            <h3>Languages</h3>
-            <p>
-                I case you were wondering, here's a list of programming languages
-                I know:
-            </p>
-            <ul class="list">
-                <li>- GDScript</li>
-                <li>- Python</li>
-                <li>- Javascript, CSS, HTML</li>
-            </ul>
-            <p>
-                Programming languages that I want to learn sometime in the future
-                (Most of which I have tried out):
-            </p>
-            <ul class="list">
-                <li>- Rust</li>
-                <li>- Kotlin</li>
-                <li>- C#..?</li>
-                <li>- C++</li>
-            </ul>
+            <div id="languages">
+                <h3>Languages</h3>
+                <p>
+                    I case you were wondering, here's a list of programming languages
+                    I know:
+                </p>
+                <ul class="list">
+                    <li>- GDScript</li>
+                    <li>- Python</li>
+                    <li>- Javascript, CSS, HTML</li>
+                </ul>
+                <p>
+                    Programming languages that I want to learn sometime in the future
+                    (Most of which I have tried out):
+                </p>
+                <ul class="list">
+                    <li>- Rust</li>
+                    <li>- Kotlin</li>
+                    <li>- C#..?</li>
+                    <li>- C++</li>
+                </ul>
+            </div>
         </div>
     </body>
     <footer id="footer-parent"></footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/index.js" type="text/javascript" defer></script>
+    <script src="/addSkipper.js" type="text/javascript"></script>
+    <script>
+        addSkipper([
+            ['Back to Top', 'content'],
+            ['Socials', 'socials-about'],
+            ['Languages', 'languages'],
+        ])
+        console.log("test")
+    </script>
 </html>
