@@ -1,6 +1,13 @@
 {
    "blogs" : [
         {
+            "name" : "FAQ",
+            "description" : "Not actually frequent.",
+            "thumbnail" : "/logs/devlog1/icon.png",
+            "path" : "/logs/faq/",
+            "pinned" : true
+        },
+        {
             "name" : "Devlog #0",
             "description" : "An introduction to my game.",
             "thumbnail" : "/logs/devlog1/icon.png",

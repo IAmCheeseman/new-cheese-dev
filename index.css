@@ -33,7 +33,7 @@ body {
 }
 
 hr {
-    border: 1px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
 }
 
 img {
@@ -109,7 +109,11 @@ a:hover {
     top: 0px;
     left: 0px;
     right: 0px;
-    
+
+    border: none;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--secondary-color);
 }
 
 
@@ -311,6 +315,8 @@ textarea {
 
 .devlog-button > img {
     display: inline-block;
+    margin-bottom: 0px;
+
     width: 20%;
 }
 
