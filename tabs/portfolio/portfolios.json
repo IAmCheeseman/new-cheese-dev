@@ -1,7 +1,7 @@
 {
     "blogs" : [
         {
-            "name" : "Unnamed Astronaut Game",
+            "name" : "Red Nivis",
             "description" : "My game about an astronaut who wanders around lab ruins.",
             "thumbnail" : "/projects/astronautGame/icon.png",
             "path" : "/projects/astronautGame/",
