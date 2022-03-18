@@ -373,7 +373,7 @@ textarea {
     background-repeat: repeat-x;
     background-size: cover;
     
-    animation: parallax-scroll 10s cubic-bezier(1, 1, 1, 1) 0s infinite forwards;
+    animation: parallax-scroll 60s cubic-bezier(1, 1, 1, 1) 0s infinite forwards;
 }
 
 .parallax-red-nivis > img {
