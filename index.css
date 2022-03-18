@@ -351,10 +351,10 @@ textarea {
 
 @keyframes parallax-scroll {
     0% {
-        background-position: right;
+        background-position: left;
     }
     100% {
-        background-position: left;
+        background-position: 229%;
     }
 }
 
@@ -370,10 +370,10 @@ textarea {
 
     background-attachment: fixed;
     background-position: right;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: cover;
     
-    animation: parallax-scroll 25s cubic-bezier(.5, .3, .3, .5) 0s infinite alternate;
+    animation: parallax-scroll 10s cubic-bezier(1, 1, 1, 1) 0s infinite forwards;
 }
 
 .parallax-red-nivis > img {
