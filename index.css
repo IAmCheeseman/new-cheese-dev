@@ -348,6 +348,43 @@ textarea {
     font-size: var(--font-size-big);
 }
 
+
+@keyframes parallax-scroll {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+
+.parallax-red-nivis {
+    background-image: url("/projects/astronautGame/redNivisBanner.png");
+
+    border-radius: 15px;
+
+    min-height: 550px;
+
+    padding: 7.5% 0%;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    animation: parallax-scroll 25s cubic-bezier(.5, .3, .3, .5) 0s infinite alternate;
+}
+
+.parallax-red-nivis > img {
+    width: 35%;
+}
+
+.parallax-red-nivis > p {
+    text-align: center;
+    color: var(--text-color-important);
+}
+
 /* Mobile Support */
 @media only screen and (max-width: 1080px) {
     .socials {
@@ -376,6 +413,13 @@ textarea {
     }
     #footer-parent > p {
         display: none;
+    }
+    .parallax-red-nivis {
+        background-attachment: scroll;
+        animation: none;
+    }
+    .parallax-red-nivis > img {
+        padding: 20% 50% 0% 0%;
     }
 }
 
