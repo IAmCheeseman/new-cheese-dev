@@ -11,8 +11,8 @@
     --rounding: 12px;
     --rounding-small: 5px;
 
-    --font-size-big: 32px;
-    --font-size-medium: 24px;
+    --font-size-big: 28px;
+    --font-size-medium: 20px;
     --font-size-small: 12px;
 
     font-family: monospace;
@@ -80,28 +80,14 @@ ul.hamburger > li {
     background-color: var(--secondary-color);
     border-radius: var(--rounding-small);
 
-    margin: 24px 0;
+    margin: 24px 24px;
 }
 
 ul.hamburger > li > h2 {
     background-color: var(--highlight-color);
     border-radius: var(--rounding-small) var(--rounding-small) 0 0;
 
-    /* background-image: url("/projects/astronautGame/redNivisBanner.png"); */
-    
-    /* text-shadow: 0px 1px 2px black; */
-    /* border-radius: 15px; */
-
-    /* min-height: 550px; */
-
     padding: 7.5% 0%;
-
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: repeat-x;
-    background-size: cover;
-    
-    animation: parallax-scroll 180s cubic-bezier(1, 1, 1, 1) 0s infinite forwards;
 
     display: block;
 
@@ -396,6 +382,12 @@ textarea {
 }
 
 
+.back {
+    display: block;
+    max-width: fit-content;
+}
+
+
 @keyframes parallax-scroll {
     0% {
         background-position: left;
@@ -407,13 +399,14 @@ textarea {
 
 
 .parallax-red-nivis {
-    background-image: url("/projects/astronautGame/redNivisBanner.png");
+    background-image: url("/projects/redNivis/redNivisBanner.png");
 
     border-radius: 15px;
 
-    min-height: 550px;
+    min-height: 525px;
 
     padding: 7.5% 0%;
+    margin: 60px 0;
 
     background-attachment: fixed;
     background-position: right;
@@ -429,6 +422,7 @@ textarea {
 
 .parallax-red-nivis > p {
     text-align: center;
+    text-shadow: 0px 0px 15px black;
     color: var(--text-color-important);
 }
 
@@ -463,10 +457,12 @@ textarea {
     }
     .parallax-red-nivis {
         background-attachment: scroll;
-        animation: none;
     }
     .parallax-red-nivis > img {
-        padding: 20% 50% 0% 0%;
+        padding: 12% 0% 0% 0%;
+    }
+    ul.hamburger > li > p {
+        font-size: 25px;
     }
 }
 
