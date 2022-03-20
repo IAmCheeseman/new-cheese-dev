@@ -422,7 +422,7 @@ textarea {
 
 .parallax-red-nivis > p {
     text-align: center;
-    text-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 5px black;
     color: var(--text-color-important);
 }
 
