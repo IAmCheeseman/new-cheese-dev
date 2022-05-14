@@ -1,0 +1,68 @@
+<!-- https://github.com/IAmCheeseman/island-generation -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css"> 
+    </head>
+    <header id="navbar-parent"></header>
+    <body>
+        <div id="content">
+            <h1 id="title">Island Generation</h1>
+            <a href="/tabs/portfolio/" class="navbar-button back">back</a>
+            <br>
+            <p>
+                The <a href="https://github.com/IAmCheeseman/love-2d-lib" target="_blank">Github</a> repo.
+            </p>
+            <p>
+                A template for Love2D projects, it's mostly a personal thing, so it's not consistently worked on,
+                and it's incomplete. Currently it has the following:
+            </p>
+            <ul class="list">
+                <li>
+                    <h3>Object Management</h3>
+                    <p>
+                        I handle all processing and drawing, so I don't have to worry about it in the future.
+                    </p>
+                    <p>
+                        Look <a href="https://github.com/IAmCheeseman/love-2d-lib/blob/main/main.lua" target="_blank">here</a>.
+                    </p>
+                </li>
+                <li>
+                    <h3>Vector Tables</h3>
+                    <p>
+                        I have a function that generates tables and has helpful functions in them. All functions
+                        which take an x and y are overwritten
+                    </p>
+                    <p>
+                        Look <a href="https://github.com/IAmCheeseman/love-2d-lib/blob/main/tools/vector.lua" target="_blank">here</a>.
+                    </p>
+                </li>
+                <li>
+                    <h3>Timers</h3>
+                    <p>
+                        I have a function which generates a timer, and has functions like `Timer:isOver()`.
+                    </p>
+                    <p>
+                        Look <a href="https://github.com/IAmCheeseman/love-2d-lib/blob/main/tools/timer.lua" target="_blank">here</a>.
+                    </p>
+                </li>
+                <li>
+                    <h3>Colors</h3>
+                    <p>
+                        I have my own color tables, and I overwrite old functions to use these.
+                    </p>
+                    <p>
+                        Look <a href="https://github.com/IAmCheeseman/love-2d-lib/blob/main/tools/color.lua" target="_blank">here</a>.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <footer id="footer-parent"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/index.js" type="text/javascript" defer>
+        createEmbed("Generates random islands in the first alpha of Godot 4.0.", "/tabs/portfolio/projects/islandGeneration/islandGeneration.html")
+    </script>
+    
+</html>

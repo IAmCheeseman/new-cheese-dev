@@ -15,6 +15,13 @@
             "pinned" : true
         },
         {
+            "name" : "Love2D Lib",
+            "description" : "A library I made that acts more as a template for my projects in Love2D.",
+            "thumbnail" : "/projects/Love2DLib/thumbnail.png",
+            "path" : "/projects/Love2DLib/",
+            "pinned" : false
+        },
+        {
             "name" : "Island Generator",
             "description" : "Generates random islands in the first alpha of Godot 4.0.",
             "thumbnail" : "/projects/islandGeneration/thumbnail.png",
