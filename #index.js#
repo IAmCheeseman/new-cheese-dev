@@ -1,11 +1,11 @@
-// ./index.js
+
 
 $(function() {
     $("#navbar-parent").load("/navbar.html");
     $("#footer-parent").load("/footer.html");
 });
 
-function setFavicon(img) {
+function setFavicon(img){
     let head = document.querySelector('head');
     let favicon = document.createElement('link');
     favicon.rel = 'shortcut icon'
