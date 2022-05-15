@@ -56,16 +56,16 @@ iframe {
 }
 
 
-ul {
-    text-align: center;
-    display: block;
-}
-
-
-ul.list > li {
+ul > socials {
     text-align: left;
     display: block;
 }
+
+
+/* ul > li {
+    text-align: left;
+    display: block;
+} */
 
 
 ul.hamburger {
