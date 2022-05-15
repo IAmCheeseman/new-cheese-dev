@@ -9,21 +9,22 @@
     <body>
         <div id="content">
             <h1 id="title">About Me</h1>
-            <!-Introduction -->
-            <p>
-                Hello, I'm Cheeseman! I am a programmer from the US. I've been
-                programming since I was ~12, starting with python, with the main 
-                goal of eventually making games. I achieved that goal sometime in
-                2019, when I discovered godot. I eventually dropped my first 
-                project due to hard to maintain code, and scope creep. I am now
-                making a new game, which is probably somewhere in the
-                <a href="/tabs/devlogs/devlogs.html">Devlogs</a> section. I've never
-                released a game, though I have a <a href="https://store.steampowered.com/app/1928130/Red_Nivis/" target="_blank">Steam page</a>.
-            </p>
-            <img src="./pfp.png" style="width: 25%;">
+            <!-- Introduction -->
+            <div class="content table">
+                <img src="./pfp.png">
+                <p class="inline">
+                    Hello, I'm Cheeseman! I am a programmer from the US. I've been
+                    programming since I was ~12, now 16. I started with python, with the main 
+                    goal of eventually making games. I achieved that goal sometime in
+                    2019, when I discovered godot. I eventually dropped my first 
+                    project due to difficulty maintaining code and scope creep. I am now
+                    making a new game, Red Nivis. I've never released a game, though I have
+                    a <a href="https://store.steampowered.com/app/1928130/Red_Nivis/" target="_blank">Steam page</a>.
+                </p>
+            </div>
             <br>
             <hr>
-            <!-What I do -->
+            <!-- What I do -->
             <h3>What I do</h3>
             <p>
                 I am a web dev (learning) & game developer. I mainly work with
@@ -35,7 +36,7 @@
                 I also do pixel art, with 2.5k hours in Aseprite.
             </p>
             <hr>
-            <!-Social Media -->
+            <!-- Social Media -->
             <div id='socials-about'>
                 <h3>Social Medias / Contacts</h3>
                 <ul>
@@ -52,6 +53,9 @@
                     <a href="https://github.com/IAmCheeseman" target="_blank">
                         <i class="fab fa-github"  aria-hidden="true"></i> Github
                     </a>
+                    <a href="https://iamcheeseman.itch.io" target="_blank">
+                        <i class="fab fa-itch-io"  aria-hidden="true"></i> Itch.io
+                    </a>
                 </ul>
             </div>
             <hr>
@@ -62,7 +66,7 @@
                     I case you were wondering, here's a list of programming languages
                     I know:
                 </p>
-                <ul class="list">
+                <ul>
                     <li>GDScript</li>
                     <li>Python</li>
                     <li>Javascript, CSS, HTML</li>
@@ -71,10 +75,9 @@
                     Programming languages that I want to learn sometime in the future
                     (Most of which I have tried out):
                 </p>
-                <ul class="list">
+                <ul>
                     <li>Rust</li>
                     <li>Kotlin</li>
-                    <li>C#..?</li>
                     <li>C++</li>
                 </ul>
             </div>
@@ -91,6 +94,5 @@
             ['Socials', 'socials-about'],
             ['Languages', 'languages'],
         ])
-        console.log("test")
     </script>
 </html>

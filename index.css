@@ -46,6 +46,11 @@ img {
 }
 
 
+.center {
+    text-align: center;
+}
+
+
 iframe {
     display: block;
     margin: 20px auto;
@@ -115,7 +120,9 @@ a {
 
 a:hover {
     cursor: pointer;
-    border-bottom: 1px solid var(--highlight-color);
+
+    color: var(--text-color-important);
+    border-bottom: 3px solid var(--highlight-color);
 }
 
 
@@ -153,6 +160,8 @@ a:hover {
 
 
 .socials {
+    color: var(--secondary-color);
+
     user-select: none;
 
     text-align: right;
@@ -165,13 +174,11 @@ a:hover {
     right: 0px;
 }
 
-.socials > a {
-    color: var(--text-color-semi-important);
-}
 
-.socials > a:hover {
-    color: var(--text-color-important);
-    border-bottom: 5px solid var(--highlight-color);
+#socials-about > ul > a {
+    font-size: 24px;
+
+    margin: 0 15px 0 0;
 }
 
 
@@ -289,9 +296,33 @@ textarea {
     margin-right: 25%;
 }
 
-#content > p {
+#content > p, .content > p {
     font-family: monospace;
     color: var(--text-color-semi-important);
+}
+
+
+.table {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.table > p {
+    margin-left: 10px;
+
+    display: inline;
+
+    max-width: 100%;
+}
+
+.table > img {
+    display: inline;
+    margin-bottom: 0px;
+
+    width: 20%;
+
+    margin-bottom: 0px;
 }
 
 #content > h1, h2, h3 {
@@ -364,18 +395,22 @@ textarea {
 .devlog-button > div {
     display: inline-block;
 
+    margin-left: 15px;
+
     max-width: 100%;
 }
-
 .devlog-button > div > p {
-    vertical-align: middle;
+    display: block;
+
+    margin: 0px;
+    padding: 0px;
 }
 
 .devlog-button > img {
     display: inline-block;
     margin-bottom: 0px;
 
-    width: 20%;
+    width: 15%;
 
     margin-bottom: 0px;
 }
