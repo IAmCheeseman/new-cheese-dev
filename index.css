@@ -157,10 +157,14 @@ a:hover {
     left: 0px;
     right: 0px;
 
-    border: none;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--secondary-color);
+    /* box-shadow: black 0px 0px 15px; */
+}
+
+#navbar-buttons {
+    display: none;
+
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -196,6 +200,15 @@ a:hover {
 #navbar > hr {
     margin-bottom: 0px;
     padding: 0px;
+}
+
+
+#navmenu-button {
+    display: none;
+
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 
@@ -302,7 +315,9 @@ textarea {
 }
 
 #content > p, .content > p {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: var(--font-size-medium);
     color: var(--text-color-semi-important);
 }
 
@@ -483,7 +498,7 @@ details:hover {
     .socials {
         display: none;
     }
-    #content > p {
+    #content > p, .content > p {
         font-size: var(--font-size-big);
     }
     #navbar {
@@ -491,6 +506,7 @@ details:hover {
     }
     .main-title {
         display: block;
+        text-align: left;
     }
     #navbar > p {
         display: none;
@@ -498,11 +514,42 @@ details:hover {
     #navbar > hr {
         border: 3px solid var(--secondary-color);
     }
-    .navbar-button {
+    #navbar > a {
+        display: none;
+        text-align: left;
+    }
+    #navbar > .main-title {
+        display: block;
         font-size: 50px;
     }
-    .devlog-button {
-        font-size: var(--font-size-big);
+    #navmenu-button {
+        display: block;
+    }
+    #navmenu-button > img {
+        border-radius: 0;
+    }
+    #navbar-buttons {
+        display: none;
+
+        flex-direction: column;
+        justify-content: left;
+    }
+    #navbar-buttons > a {
+        display: block;
+        font-size: 50px;
+
+        text-align: left;
+
+        padding-left: 15px;
+    }
+    .devlog-description {
+        font-size: 32px;
+    }
+    .devlog-name {
+        font-size: 50px;
+    }
+    h1, h2, h3{
+        font-size: 50px;
     }
     #footer-parent > p {
         display: none;

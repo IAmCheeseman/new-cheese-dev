@@ -8,10 +8,16 @@ $(function() {
 function setFavicon(img) {
     let head = document.querySelector('head');
     let favicon = document.createElement('link');
-    favicon.rel = 'shortcut icon'
-    favicon.href = img
+    favicon.rel = 'shortcut icon';
+    favicon.href = img;
 
     head.appendChild(favicon);
+}
+
+function showNavButtons() {
+    let buttons = document.getElementById("navbar-buttons");
+    if (buttons.style.display == "none") buttons.style.display = "flex";
+    else buttons.style.display = "none";
 }
 
 setFavicon('/favicon.png')
