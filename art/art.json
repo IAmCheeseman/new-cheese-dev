@@ -4,56 +4,63 @@
             "name" : "Void Creature",
             "description" : "Done for an art jam.",
             "thumbnail" : "/art/peices/voidCreature/voidCreature.png",
-            "path" : "/art/peices/voidCreature/voidCreature.html",
+            "path" : "/art/peices/voidCreature/",
             "pinned" : false
         },
         {
             "name" : "Robots",
             "description" : "First of my current style.",
             "thumbnail" : "/art/peices/robots/robots.png",
-            "path" : "/art/peices/robots/robots.html",
+            "path" : "/art/peices/robots/",
             "pinned" : false
         },
         {
             "name" : "Lanky Astronaut",
             "description" : "One of my favorites.",
             "thumbnail" : "/art/peices/lankyAstronaut/astronaut.png",
-            "path" : "/art/peices/lankyAstronaut/astronaut.html",
+            "path" : "/art/peices/lankyAstronaut/",
+            "pinned" : false
+        },
+        {
+            "name" : "Mailcube",
+            "description" : "I love mail.",
+            "thumbnail" : "/art/peices/mailcube/mailcube.png",
+            "path" : "/art/peices/mailcube/",
             "pinned" : false
         },
         {
             "name" : "Ultrakill Fanart",
             "description" : "Ultrakill, go play it.",
             "thumbnail" : "/art/peices/ultrakillFanart/v2UK.png",
-            "path" : "/art/peices/ultrakillFanart/ultrakillFanart.html",
+            "path" : "/art/peices/ultrakillFanart/",
             "pinned" : false
         },
         {
             "name" : "Headstone",
             "description" : "Learning another shading method.",
             "thumbnail" : "/art/peices/headstone/headstone.png",
-            "path" : "/art/peices/headstone/headstone.html",
+            "path" : "/art/peices/headstone/",
             "pinned" : false
         },
         {
             "name" : "H.A.N.K.",
             "description" : "A boss in my game.",
             "thumbnail" : "/art/peices/HANK/HANK.png",
-            "path" : "/art/peices/HANK/HANK.html",
+            "path" : "/art/peices/HANK/",
             "pinned" : false
         },
         {
             "name" : "3D Bee",
             "description" : "My only attempt at 3D art.",
             "thumbnail" : "/art/peices/bee/bee.jpg",
-            "path" : "/art/peices/bee/bee.html",
+            "path" : "/art/peices/bee/",
             "pinned" : false
         },
         {
             "name" : "First Pixels",
             "description" : "First few pixel arts I've done.",
             "thumbnail" : "/art/peices/firstPixels/boogerMan.png",
-            "path" : "/art/peices/firstPixels/firstPixels.html",
+            "path" : "/art/peices/firstPixels/",
             "pinned" : false
         }
     ]
